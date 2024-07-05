@@ -1,3 +1,5 @@
+#https://www.youtube.com/@CGPython
+
 bl_info = {
     "name": "New path render",
     "author": "user",
