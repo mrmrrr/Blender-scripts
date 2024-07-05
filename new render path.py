@@ -19,7 +19,7 @@ def newPathToRender():
     
     now = datetime.now()
     current_time = now.strftime("%Hh-%Mm-%Ss")
-    filename = os.path.dirname(bpy.data.filepath) + '\\' + 'temp' + '\\' + current_time
+    filename = os.path.dirname(bpy.data.filepath) + '\\' + current_time
     
     bpy.data.scenes[bpy.context.scene.name].render.filepath = filename
 
